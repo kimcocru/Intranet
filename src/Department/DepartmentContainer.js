@@ -2,6 +2,8 @@ import React from 'react'
 import DepartmentList from './DepartmentList'
 import { connect } from 'react-redux'
 import {loadDepartments} from './actions'
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+
 
 class DepartmentContainer extends React.Component {
 
@@ -19,7 +21,7 @@ class DepartmentContainer extends React.Component {
 
           <div>
 
-          <table className="table table-hover table-condensed table-dark">
+          <table className="table table-hover table-condensed table-light">
             <thead>
             <tr>
               <th scope="col" >ID</th>

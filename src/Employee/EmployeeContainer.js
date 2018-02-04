@@ -17,7 +17,7 @@ class EmployeeContainer extends React.Component {
     render() {
         return (
           <div>
-          <table className="table table-hover table-condensed table-dark">
+          <table className="table table-hover table-condensed table-light">
             <thead>
             <tr>
               <th scope="col">ID Department</th>

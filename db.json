@@ -13,28 +13,28 @@
 {"name":"Customer Service","id":4},
 
 {"name":"Inventory","id":5},
-{"name":"Services","id":0},
+{"name":"Services","id":6},
 
-{"name":"Marketing","id":1},
+{"name":"Marketing","id":7},
 
-{"name":"Human Resources","id":2},
+{"name":"Human Resources","id":8},
 
-{"name":"Financial","id":3},
+{"name":"Financial","id":9},
 
-{"name":"Customer Service","id":4},
+{"name":"Customer Service","id":10},
 
-{"name":"Inventory","id":5},
-{"name":"Services","id":0},
+{"name":"Inventory","id":11},
+{"name":"Services","id":12},
 
-{"name":"Marketing","id":1},
+{"name":"Marketing","id":13},
 
-{"name":"Human Resources","id":2},
+{"name":"Human Resources","id":14},
 
-{"name":"Financial","id":3},
+{"name":"Financial","id":15},
 
-{"name":"Customer Service","id":4},
+{"name":"Customer Service","id":16},
 
-{"name":"Inventory","id":5}
+{"name":"Inventory","id":17}
 
 ],
 
@@ -45,21 +45,21 @@
 {"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":1,"id":1,"role":"manager"},
 
 {"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":3,"id":2,"role":"manager"},
-{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":2,"id":0,"role":"manager"},
+{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":2,"id":15,"role":"manager"},
 
-{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":3,"id":1,"role":"manager"},
+{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":3,"id":3,"role":"manager"},
 
-{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":4,"id":2,"role":"manager"},
-{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":2,"id":0,"role":"manager"},
+{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":4,"id":5,"role":"manager"},
+{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":2,"id":19,"role":"manager"},
 
-{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":1,"id":1,"role":"manager"},
+{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":1,"id":6,"role":"manager"},
 
-{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":3,"id":2,"role":"manager"},
-{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":3,"id":0,"role":"manager"},
+{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":3,"id":7,"role":"manager"},
+{"name":"Parul Gauger","personalPhone":"984-0929","extension":"436","companyEmail":"paruga@krg.info","personalEmail":"paruga@gmail.com","idDepartment":3,"id":8,"role":"manager"},
 
-{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":2,"id":1,"role":"manager"},
+{"name":"Jocelin Fortunato","personalPhone":"060-0146","extension":"532","companyEmail":"joc_fo@krg.info","personalEmail":"joc_fo@gmail.com","idDepartment":2,"id":9,"role":"manager"},
 
-{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":1,"id":2,"role":"manager"}
+{"name":"Fergus Didomenico","personalPhone":"867-0445","extension":"541","companyEmail":"ferdidomen@krg.info","personalEmail":"ferdidomen@gmail.com","idDepartment":1,"id":10,"role":"manager"}
 
 ]
 
