@@ -7,6 +7,9 @@ import { Switch, Route, NavLink } from 'react-router-dom'
 import './App.css'
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+
 import 'jquery'
 
 

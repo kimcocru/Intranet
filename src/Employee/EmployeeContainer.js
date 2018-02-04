@@ -1,7 +1,31 @@
 import React from 'react'
 import EmployeeList from './EmployeeList'
 import { connect } from 'react-redux'
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 import {loadEmployees} from './actions'
+
+const selectRowProp = {
+mode: 'checkbox',
+clickToSelect: true  // enable click to select
+};
+function onAfterDeleteRow(rowKeys) {
+  alert('The rowkey you drop: ' + rowKeys);
+}
+
+function onAfterInsertRow(row) {
+  let newRowStr = '';
+
+  for (const prop in row) {
+    newRowStr += prop + ': ' + row[prop] + ' \n';
+  }
+  alert('The new row is:\n ' + newRowStr);
+}
+
+const options = {
+  insertText: 'Add Employee',
+    deleteText: 'Remove Employee',
+
+};
 
 class EmployeeContainer extends React.Component {
 
@@ -17,23 +41,18 @@ class EmployeeContainer extends React.Component {
     render() {
         return (
           <div>
-          <table className="table table-hover table-condensed table-light">
-            <thead>
-            <tr>
-              <th scope="col">ID Department</th>
-              <th scope="col">ID</th>
-              <th scope="col">Name</th>
-              <th scope="col">Company Email</th>
-              <th scope="col">Personal Email</th>
-              <th scope="col">Extension</th>
-              <th scope="col">Personal Phone</th>
-              <th scope="col">Role</th>
-            </tr>
-            </thead>
+          <BootstrapTable data={this.props.employees} striped={true} hover={true}  selectRow={ selectRowProp }  options={ options } insertRow
+         deleteRow>
+             <TableHeaderColumn dataField="idDepartment" dataSort={true}>ID Department</TableHeaderColumn>
+             <TableHeaderColumn dataField="id" isKey={true} dataAlign="center" dataSort={true}>Employee ID</TableHeaderColumn>
+             <TableHeaderColumn dataField="name" dataSort={true}>Employee Name</TableHeaderColumn>
+             <TableHeaderColumn dataField="companyEmail"  dataAlign="center" dataSort={true}>Company Email</TableHeaderColumn>
+             <TableHeaderColumn dataField="personalEmail" dataSort={true}>Personal Email</TableHeaderColumn>
+             <TableHeaderColumn dataField="extension"  dataAlign="center" dataSort={true}>Extension</TableHeaderColumn>
+             <TableHeaderColumn dataField="personalPhone" dataSort={true}>Personal Phone</TableHeaderColumn>
+             <TableHeaderColumn dataField="role"  dataAlign="center" dataSort={true}>Role</TableHeaderColumn>
 
-            <EmployeeList id="employees" employees={this.props.employees} />
-
-          </table>
+          </BootstrapTable >
           </div>
         );
     }
